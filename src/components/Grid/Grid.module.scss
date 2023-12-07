@@ -1,0 +1,22 @@
+@import "enums/styleVariables.module.scss";
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  background: black;
+  padding-left: 1px;
+  padding-top: 1px;
+}
+
+.item {
+  margin-right: 1px;
+  margin-bottom: 1px;
+  background: white;
+  transition: background 200ms;
+  cursor: pointer;
+}
+
+.itemHovered {
+  background: $bluePrimary;
+}

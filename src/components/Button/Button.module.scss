@@ -1,0 +1,16 @@
+@import "enums/styleVariables.module.scss";
+
+.main {
+  color: white;
+  background: $bluePrimary;
+  padding: 8px 36px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 200ms;
+
+  &:hover {
+    background: #6ebcfc;
+  }
+}

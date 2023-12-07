@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  width: fit-content;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.controls {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+
+  & > button {
+    margin-left: 16px;
+  }
+}
+
